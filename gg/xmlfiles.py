@@ -22,7 +22,7 @@ from dateutil.parser import parse as parse_date
 from re import compile as re_compile
 from gi.repository import Gtk
 from calendar import timegm
-from time import clock
+from time import perf_counter
 
 from gpsmath import Coordinates
 from common import add_polygon_to_map
